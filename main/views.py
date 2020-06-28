@@ -1,4 +1,4 @@
-import requests
+from urllib import requests
 from django.http import  HttpResponseRedirect
 from django.shortcuts import render
 from .forms import UserContact
