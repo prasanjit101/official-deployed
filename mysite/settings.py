@@ -122,11 +122,11 @@ STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS=[os.path.join(BASE_DIR,"static")]
 STATIC_URL = '/static/'
 
-
 # FLUTTERWAVE_PRIVATE_KEY = "FGRGH343333445"
 FLUTTERWAVE_PRIVATE_KEY = os.environ.get("FLUTTERWAVE_PRIVATE_KEY")
 # PAYSTACK_PRIVATE_KEY = "7896898098"
 PAYSTACK_PRIVATE_KEY = os.environ.get("PAYSTACK_PRIVATE_KEY")
+
 
 #Activate heroku settings 
 django_heroku.settings(locals())
