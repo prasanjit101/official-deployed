@@ -117,9 +117,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
+SETTINGS_DIR = os.path.dirname(__file__)
+PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
+PROJECT_PATH = os.path.abspath(PROJECT_PATH)
+
+STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
+STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
-STATICFILES_DIRS = None
+STATICFILES_DIRS = (
+    STATIC_PATH,
+    )
+
 
 # FLUTTERWAVE_PRIVATE_KEY = "FGRGH343333445"
 FLUTTERWAVE_PRIVATE_KEY = os.environ.get("FLUTTERWAVE_PRIVATE_KEY")
