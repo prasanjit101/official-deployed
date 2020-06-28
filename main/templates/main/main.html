@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="max-age=120">
+    <meta http-equiv="pragma" content="max-age=120">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Aryan Dutta</title>
+    <!--TAB ICON-->
+    <link rel="icon" href="../../static/assets/compress/favicon1.10-min.png">
+    <!--FONT AWESOME LIBRARY-->
+    <link rel="stylesheet" type="text/css" href="../static/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" type="text/css" href="../../static/css/main.css">
+    <!--JAVASCRIPT-->
+    <script src="../../static/js/navAnimate.js" defer></script>
+    {% block link %}{% endblock %}
+</head>
+<body>
+    <!--Slider Code-->
+    <section class="slider-main" style="width: 100%;">
+        <!--"Opac-slider" transparent section overlapped over "slider-main" section-->
+        <section id="Opac-slider" style="width: 100%; opacity: 0.5; height:100vh; position: absolute; background-color: #000;"></section>
+        <!--"slider-head" secion overlapped over the "Opac-slider" transparent section-->
+        <section id="slider-head" style="width: 65%; position: absolute;">
+            <section id= "slider">
+                <section id="slider-content">
+                    <div class="slider-header">
+                        <img src="../static/assets/compress/arlogo-min.png" style="width:150px;height:30px;"><a href="#" class="arrow"><span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </div>
+                    <hr color="white" width="100%">
+                    <section id="contents" style="list-style: none;">
+                        <li class="items">
+                            <a href="/" target="_self" class="item">
+                                <h4 class="subnav-link">HOME</h4>
+                                <span class="subnav-nav-link">Main Page</span>
+                            </a>
+                        </li>
+                        <li class="items">
+                            <a href="/contact" target="_self" class="item">
+                                <h4 class="subnav-link">CONTACT US</h4>
+                                <span class="subnav-nav-link">Get In Touch</span>
+                            </a>
+                        </li>
+                        <li class="items">
+                            <a href="#" target="_self" class="item">
+                                <h4 class="subnav-link">WE OFFER</h4>
+                                <span class="subnav-nav-link">Our Services</span>
+                            </a>
+                        </li>
+                        <li class="items">
+                            <a href="/team" target="_self" class="item">
+                                <h4 class="subnav-link">TEAM</h4>
+                                <span class="subnav-nav-link">About Us</span>
+                            </a>
+                        </li>
+                    </section>
+                    <h1><hr color="white" width="100%" ></h1>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!--Slider Code End-->
+
+    <!--NAVIGATION BAR AND HAMBURGER MENU FOR PC VIEW-->
+    <div class="row">
+        <div class="container-fluid">
+            <div class="navbar navbar-expand-lg navbar-light">
+                <div class="container navcont">
+                    <div class="navbar-header">
+                        <a href="/" class="navbar-brand"><img src="../static/assets/compress/logolatest-min.png" class="img-responsive" style="width:250px;height:40px;"></a>                   
+                        <a href="/" class="navbar-brand-mobile"><img src="../static/assets/compress/arlogo-min.png" class="img-responsive" style="width:200px;height:30px;"></a>                   
+                        <div class="hamburger">
+                            <div class="ham"></div>
+                            <div class="ham"></div>
+                            <div class="ham"></div>
+                        </div>
+                    </div>
+                    <div class="flexbox">
+                        <ul class="sub-nav">
+                            <li class="items">
+                                <a href="/" target="_self" class="item">
+                                    <h4 class="subnav-link">HOME</h4>
+                                    <span class="subnav-nav-link">Main Page</span>
+                                </a>
+                            </li>
+                            <li class="items">
+                                <a href="/contact" target="_self" class="item">
+                                    <h4 class="subnav-link">CONTACT US</h4>
+                                    <span class="subnav-nav-link">Get In Touch</span>
+                                </a>
+                            </li>
+                            <li class="items">
+                                <a href="#" target="_self" class="item">
+                                    <h4 class="subnav-link">WE OFFER</h4>
+                                    <span class="subnav-nav-link">Our Services</span>
+                                </a>
+                            </li>
+                            <li class="items">
+                                <a href="/team" target="_self" class="item">
+                                    <h4 class="subnav-link">TEAM</h4>
+                                    <span class="subnav-nav-link">Get In Touch</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--NAVIGATION BAR AND NAV BAR FOR PC VIEW END-->
+    {% block content %}{% endblock %}
+
+    <!--FOOTER-->
+    <section id="crow7">
+        <div class="row">
+            <div class="container">
+                <div class="col-xs-6 col-md-4">
+                    <div class="container footer">
+                        <div class="row col-xs-12 l1" style="padding:0px;">
+                            <img src="../static/assets/compress/arlogo-min.png">
+                        </div>
+                        <div class="row l2">
+                            <div class="col-xs-12 l2-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum doloribus earum rem mollitia quo sit, itaque exercitationem vel in sapiente fugit.
+                            </div>
+                        </div>
+                        <div class="row l3">
+                            <div class="col-xs-12 l3-text">
+                                Subscribe
+                            </div>
+                        </div>
+                        <div class="row l4">
+                            <div class="col-xs-12 l4-text">
+                                Get to know about ARYAN DUTTA MEDIA, our updates and all news straight to your inbox
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container footer-form-mobile">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" name="Email" placeholder="Your Email ID" class="form-control">
+                                    <div id='submit-glyph'>
+                                        <span class="glyphicon glyphicon-chevron-right glp"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-5" id="footer-middle">
+                    <div class="container" style="width:80%">
+                        <div class="row footer-middle-row-1">
+                            <div class="col-xs-12" id="heading-wrapper">
+                                <span id="heading">KNOW ABOUT YOUR</span>
+                            </div>
+                        </div>
+                        <div class="row footer-middle-row-2">
+                            <div class="col-xs-12 r4">
+                                <span class="footer-btn">PRODUCT</span>
+                            </div>
+                        </div>
+                        <div class="row footer-middle-row-3">
+                            <div class="container footer-form">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" name="Email" placeholder="Your Email ID" class="form-control">
+                                        <div id='submit-glyph'>
+                                            <span class="glyphicon glyphicon-chevron-right glp"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3 footer-right-wrapper">
+                    <div class="container footer-right">
+                        <div class="row footer-right-row-1">
+                            <div class="col-xs-12" id="heading-wrapper">
+                                <span id="heading">KNOW ABOUT OUR</span>
+                            </div>
+                        </div>
+                        <div class="row footer-right-row-2">
+                            <div class="row">
+                                <a href="/policy" target="_blank">
+                                    <div class="col-xs-12 r1">
+                                        <span class="footer-btn">PRIVACY POLICY</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 r2">
+                                    <span class="footer-btn">
+                                        NETWORK
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-11 r3">
+                                    <span class="footer-btn">
+                                        PREVIOUS CLIENTS
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-ending">
+                <div class="container f-container">
+                    <span class="footer-icon-header">CONNECT WITH US</span>      
+                    <a href="https://www.facebook.com/aryanduttamedia/" class="footer-link"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="https://www.instagram.com/aryanduttamedia/" class="footer-link"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="https://twitter.com/AryanDuttaMedia" class="footer-link"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/company/aryanduttamedia/" class="footer-link"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="row footer-ending-mobile">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <span class="footer-icon-header">CONNECT WITH US</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 footer-links">
+                        <a href="https://www.facebook.com/aryanduttamedia/" class="footer-link"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/aryanduttamedia/" class="footer-link"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://twitter.com/AryanDuttaMedia" class="footer-link"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/company/aryanduttamedia/" class="footer-link"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER END-->
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+</body>
+</html>

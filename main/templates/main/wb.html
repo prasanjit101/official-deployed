@@ -1,0 +1,126 @@
+{% extends "main/main.html" %}
+{% block link %}
+<link rel="stylesheet" type="text/css" href="../../static/css/wb.css">
+{% endblock %}
+{% block content %}
+<div class="container" style="width:90%;margin-top:50px;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../../static/assets//compress/la-min.jpg" alt="Los Angeles" height=200px>
+          </div>
+      
+          <div class="item">
+            <img src="../../static/assets/compress/chicago-min.jpg" alt="Chicago" height=200px>
+          </div>
+      
+          <div class="item">
+            <img src="../../static/assets/compress/ny-min.jpg" alt="New York" height=200px>
+          </div>
+        </div>
+    </div>
+</div>
+<!--LISTS-->
+<div class="container" id="content-wrapper">
+    <div class="row" id="section1">
+        <div class="col-xs-12 sec-1">
+            <span id="lnum">01. </span>
+            <div id="text">We build High-Performance websites with creative design that will capture leads, nuture them and generate sales in autopilot.</div>
+        </div>
+        <div class="col-xs-10 sec-2">
+            <div id="sub-text">
+                Our high-performance websites are built by internet marketers ans web designers. We make sure that your website looks pretty as well as brings sales, our primary focus is data and creating a good user experience so that the browsers convert into buyers.
+            </div>
+        </div>
+    </div>
+    <div class="row" id="section2">
+        <div class="col-xs-12 sec-1">
+            <span id="lnum">02.</span>
+            <div id="text">
+                Get super-fast mobile optimized sites that convert browsers into buyers.
+            </div>
+        </div>
+    </div>
+    <div class="row" id="section3">
+        <div class="col-xs-12 col-md-6" id="sec-3-left">
+            <img src="../../static/assets/compress/webdndillustration1-min.png" class="img-responsive">
+        </div>
+        <div class="col-xs-12 col-md-6" id="sec-3-right">
+            <p id="sec-3-right-text">
+                More than 50% of today's website traffic comes from mobile. We make sure that the website is designed and are fully optimised for mobile, with better loading time.Our UX first approach will convert your browsers into buyers.
+            </p>
+        </div>
+    </div>
+    <div class="row" id="section4">
+        <div class="col-xs-12 col-md-6" id="sec-4-left">
+            <div class="row" id="sub-section1">
+                <p id="sec-4-left-text1">
+                    Making your website the "<span id="sec-4-unique-text">Online Hub</span>" for your business.
+                </p>
+            </div>
+            <div class="row" id="sub-section2">
+                <a href="/contact/" target="_self">
+                    <button class="btn sec-4-btn">
+                        GET A WEBSITE CHECK FOR FREE
+                    </button><br>
+                </a>
+                <a href="/contact/" target="_self">
+                    <button class="btn sec-4-btn">
+                        ORDER A PERSONAL WEBSITE
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6" id="right">
+            <img src="../../static/assets/compress/webdndillustration2-min.png" class="img-responsive">
+        </div>
+    </div>
+    <div class="row" id="section5">
+        <div class="col-xs-12 sec-1">
+            <span id="lnum">03.</span>
+            <div id="text">
+                Our websites will be good fit for your business if you want to
+            </div>
+        </div>
+        <div class="col-xs-12 sec-2">
+            <div id="sub-text">
+                <ul class="ulist">
+                    <li class="item">
+                        <div id="list-item">
+                            Increase Your Online Leads:
+                        </div>
+                        <div id="list-sub-item">
+                            We make sure you get an exponential growth of online leads (lowering your cost to acquire a customer).
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div id="list-item">
+                            Get an Increase In Conversions (so the website pays for itself):
+                        </div>
+                        <div id="list-sub-item">
+                            That's right we'll aim to get you a MINIMUM increase of 20% on your current website's conversion rate.
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div id="list-item">
+                            Completely "Done-For-You" service:
+                        </div>
+                        <div id="list-sub-item">
+                            We'll handle EVERYTHING for you - so you can get on with the bigger business picture. This includes writing hard-working direct response sales copy, through to fully custom design and a responsive website build.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END LIST-->
+{% endblock %}
