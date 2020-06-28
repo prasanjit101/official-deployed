@@ -38,7 +38,7 @@
 }
 
 .hero-text-wrapper .form-wrapper {
-  width: 58%;
+  width: 55%;
   margin: auto;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -49,15 +49,54 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .hero-text-wrapper .form-wrapper .main-form .form-group i {
   position: absolute;
   padding-left: 20px;
   padding-top: 2.3vh;
+}
+
+.hero-text-wrapper .form-wrapper .main-form .form-group .btn {
+  width: 80%;
+  margin: auto;
+  background-color: #dff7f6;
+  padding: 5px 10px;
+  border-radius: 50rem;
+  -webkit-box-shadow: 8px 2px 5px #8a8a8a,-2px -2px 5px #d7fcfa;
+          box-shadow: 8px 2px 5px #8a8a8a,-2px -2px 5px #d7fcfa;
+  font-size: 25px;
+  font-weight: lighter;
+  color: #4b4b4b;
+  -webkit-transition: -webkit-transform 0.42s ease-in-out;
+  transition: -webkit-transform 0.42s ease-in-out;
+  transition: transform 0.42s ease-in-out;
+  transition: transform 0.42s ease-in-out, -webkit-transform 0.42s ease-in-out;
+}
+
+.hero-text-wrapper .form-wrapper .main-form .form-group .btn:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.hero-text-wrapper .form-wrapper .main-form #hero-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
 }
 
 .hero-text-wrapper .form-wrapper .main-form .form-control {
@@ -105,39 +144,6 @@
   font-weight: 800;
   font-size: 4vw;
   color: #0b6b68;
-}
-
-.hero-text-wrapper .container {
-  width: 80%;
-  text-align: center;
-  padding: 0px;
-  margin: auto;
-}
-
-.hero-text-wrapper .container .hero-text-2-container {
-  width: 60%;
-  margin: auto;
-  background-color: #dff7f6;
-  border-radius: 50rem;
-  padding: 10px 20px;
-  -webkit-box-shadow: 6px 3px 5px #4e4e4e, -6px -3px 6px #c0fbebab;
-          box-shadow: 6px 3px 5px #4e4e4e, -6px -3px 6px #c0fbebab;
-  -webkit-transition: -webkit-transform 0.48s ease-in-out;
-  transition: -webkit-transform 0.48s ease-in-out;
-  transition: transform 0.48s ease-in-out;
-  transition: transform 0.48s ease-in-out, -webkit-transform 0.48s ease-in-out;
-}
-
-.hero-text-wrapper .container .hero-text-2-container .hero-text-2 {
-  font-family: bahnschrift;
-  font-weight: lighter;
-  font-size: 2vw;
-  color: #363636;
-}
-
-.hero-text-wrapper .container .hero-text-2-container:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
 }
 
 .hero-banner-mobile-wrapper {
@@ -713,7 +719,7 @@
     width: 90%;
     margin: auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .hero-banner-heading-wrapper #hero-banner-heading {
     color: #323232;
@@ -724,10 +730,14 @@
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form {
     width: 90%;
     margin: auto;
+    margin-top: 20px;
+  }
+  .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group {
+    margin: 25px auto;
   }
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group .form-control {
     border-radius: 50rem;
-    height: 6vh;
+    height: 20%;
     color: black;
     font-size: 18px;
   }
@@ -737,7 +747,7 @@
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group i {
     position: absolute;
     padding-left: 20px;
-    padding-top: 2vh;
+    padding-top: 10px;
   }
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group ::-webkit-input-placeholder {
     font-size: 18px;
@@ -752,12 +762,12 @@
     font-size: 18px;
   }
   .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group .btn {
-    margin-top: 3vh;
+    margin-top: 6vh;
     border-radius: 50rem;
     background-color: teal;
     color: white;
     font-size: 18px;
-    height: 6vh;
+    height: 36px;
     text-align: center;
   }
   .card-wrapper, .flexbox, .hero-text-wrapper {
@@ -995,6 +1005,12 @@
   }
   #crow7 .footer-right-wrapper .footer-right .footer-right-row-1 #heading-wrapper #heading {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .hero-banner-mobile-wrapper .hero-banner-mobile-content .header-banner-mobile-form .form-group .btn {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=index.css.map */
