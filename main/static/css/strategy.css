@@ -1,0 +1,108 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url(../webfonts/BAHNSCHRIFT.woff);
+}
+
+* {
+  font-family: bahnschrift;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.navbar .navcont .flexbox .sub-nav .items {
+  padding: 10px 25px;
+}
+
+#container-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+#container-wrapper #section1 {
+  padding-top: 50px;
+}
+
+#container-wrapper #section1 .sec-1 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container-wrapper #section2 #sec-2-right img {
+  height: 250px;
+  width: 700px;
+}
+
+#container-wrapper #section2 #sec-2-left #sec-2-left-text {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#container-wrapper #section3 .sec-3 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section4 {
+  padding-top: 30px;
+}
+
+#container-wrapper #section4 .sec-4 #sec-4-text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#container-wrapper #section5 .sec-5 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section6 #sec-6-left .item #list-item {
+  padding-top: 28px;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+#container-wrapper #section6 #sec-6-left .item #list-sub-item {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#container-wrapper .button {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+#container-wrapper .button .sec-6-btn {
+  background: teal;
+  color: white;
+  border-radius: 50rem;
+  font-size: 22px;
+  -webkit-transition: -webkit-transform 0.38s ease-in-out;
+  transition: -webkit-transform 0.38s ease-in-out;
+  transition: transform 0.38s ease-in-out;
+  transition: transform 0.38s ease-in-out, -webkit-transform 0.38s ease-in-out;
+}
+
+#container-wrapper .button .sec-6-btn:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#container-wrapper #section3, #container-wrapper #section5 {
+  padding-top: 80px;
+}
+/*# sourceMappingURL=strategy.css.map */

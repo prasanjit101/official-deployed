@@ -20,3 +20,10 @@ def team(request):
     return render(request,'main/team.html')
 def policy(request):
     return render(request,'main/privacyPolicy.html')
+def strategy(request):
+    return render(request,'main/strategy.html')
+
+    
+
+    
+

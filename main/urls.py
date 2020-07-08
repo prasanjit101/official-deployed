@@ -12,5 +12,7 @@ urlpatterns = [
     path("graphics/", views.graphicsdesign, name="graphicsdesign"),
     path("socialmedia/", views.socialmedia, name="socialmedia"),
     path("team/", views.team, name="team"),
-    path("policy/", views.policy, name="policy")
+    path("policy/", views.policy, name="policy"),
+    path("strategy/", views.strategy, name="strategy")
+
 ]
