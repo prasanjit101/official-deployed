@@ -68,8 +68,10 @@ body {
   border-radius: 15px;
   padding: 3px 22px;
   text-align: center;
-  -webkit-box-shadow: 2px 2px 8px #dadada,  -4px -3px 5px #ffffff;
-          box-shadow: 2px 2px 8px #dadada,  -4px -3px 5px #ffffff;
+  -webkit-box-shadow: 2px 2px 8px #dadada, 
+ -4px -3px 5px #ffffff;
+          box-shadow: 2px 2px 8px #dadada, 
+ -4px -3px 5px #ffffff;
 }
 
 .navbar .navcont .flexbox .sub-nav .items .item {
@@ -95,8 +97,10 @@ body {
 }
 
 .navbar .navcont .flexbox .sub-nav .items:hover {
-  -webkit-box-shadow: 2px 2px 12px #c4c4c4,  -4px -3px 8px #ffffff;
-          box-shadow: 2px 2px 12px #c4c4c4,  -4px -3px 8px #ffffff;
+  -webkit-box-shadow: 2px 2px 12px #c4c4c4, 
+ -4px -3px 8px #ffffff;
+          box-shadow: 2px 2px 12px #c4c4c4, 
+ -4px -3px 8px #ffffff;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -328,7 +332,7 @@ body {
   .navbar .navcont {
     width: 100%;
     border-bottom: none;
-    padding: 10px 20px;
+    padding:10px 0px ;
   }
   .navbar .navcont .navbar-header {
     display: -webkit-box;
@@ -338,7 +342,7 @@ body {
         -ms-flex-align: end;
             align-items: flex-end;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-between;
     width: 100%;
   }
   .navbar .navcont .navbar-header .navbar-brand {
