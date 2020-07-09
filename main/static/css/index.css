@@ -668,6 +668,10 @@
   padding: 20px;
 }
 
+#crow6 .promise-cards-wrapper .promise-cards .flex-grow .text-base {
+  font-size: 18px;
+}
+
 #crow6 .promise-cards-wrapper .tab-icon-wrapper {
   width: 80px;
   height: 80px;
