@@ -22,6 +22,8 @@ def policy(request):
     return render(request,'main/privacyPolicy.html')
 def strategy(request):
     return render(request,'main/strategy.html')
+def error_404(request,exception):
+    return render(request,'main/error.html')
 
     
 
