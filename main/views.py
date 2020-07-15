@@ -23,7 +23,7 @@ def policy(request):
 def strategy(request):
     return render(request,'main/strategy.html')
 def error_404(request,exception):
-    return render(request,'main/error.html')
+    return render(request,'main/404.html')
 
     
 

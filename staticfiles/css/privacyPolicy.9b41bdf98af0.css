@@ -1,0 +1,39 @@
+.section1-wrapper {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.section1-wrapper .section1 {
+  background-color: white;
+  color: #2c2c2c;
+  padding: 50px 50px;
+}
+
+.section1-wrapper .section1 .para {
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.section1-wrapper .section1 .nested-para {
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.section1-wrapper .section1 .description-item {
+  font-size: 18px;
+}
+
+.section1-wrapper .section1 .table-of-content-description {
+  margin: 40px auto;
+}
+
+@media all and (max-width: 768px) {
+  .section1-wrapper .section1 {
+    padding: 50px 20px;
+  }
+  .section1-wrapper .section1 .para {
+    margin: 20px auto;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=privacyPolicy.css.map */

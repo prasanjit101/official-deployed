@@ -1,0 +1,361 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url("../webfonts/BAHNSCHRIFT.8cab203d8940.woff");
+}
+
+* {
+  font-family: bahnschrift;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.navbar .navcont .flexbox .sub-nav .items {
+  padding: 10px 25px;
+}
+
+#container-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+#container-wrapper #section1 {
+  padding-top: 20px;
+}
+
+#container-wrapper #section1 .sec-1 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container-wrapper #section2 #sec-2-right {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#container-wrapper #section2 #sec-2-right img {
+  height: 350px;
+  width: 600px;
+}
+
+#container-wrapper #section2 #sec-2-left #sec-2-left-text {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#container-wrapper #section3 .sec-3 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section4 {
+  padding-top: 50px;
+}
+
+#container-wrapper #section4 .sec-4 #sec-4-text {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#container-wrapper #section5 {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+#container-wrapper #section5 .sec-5 #text {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+#container-wrapper #section6 {
+  padding-top: 20px;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list {
+  width: 80%;
+  margin: auto;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list #row-list {
+  padding: 20px 0px;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list .list-icon {
+  margin: auto;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list .list-icon img {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+}
+
+#container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list #text-right {
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+#container-wrapper #section7 .sec-7 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section8 {
+  padding-top: 30px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-left {
+  padding-left: 50px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-left #step {
+  padding-top: 30px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-left #step .text {
+  background: gray;
+  color: #04d6d6;
+  font-weight: 700;
+  border-radius: 50rem;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-left #step .step-text {
+  font-size: 20px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-right {
+  padding-left: 150px;
+}
+
+#container-wrapper #section8 .sec-8 .sec-8-right img {
+  height: 280px;
+  width: 440px;
+}
+
+#container-wrapper #section3, #container-wrapper #section5, #container-wrapper #section7, #container-wrapper #section9, #container-wrapper #section10 {
+  padding-top: 80px;
+}
+
+#container-wrapper #section9 .sec-9 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section10 .sec-wrapper {
+  margin-bottom: 50px;
+}
+
+#container-wrapper #section10 .sec-wrapper .sec-inner {
+  padding-bottom: 40px;
+}
+
+#container-wrapper #section10 .sec-wrapper .sec-inner .sec-text {
+  font-size: 35px;
+  padding: 20px;
+}
+
+#container-wrapper #section10 .sec-wrapper .sec-inner .sec-slider #myCarousel .carousel-inner {
+  border-radius: 20px;
+}
+
+#section4-mobile {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  .slider-header {
+    padding-bottom: 20px;
+  }
+  #contents {
+    padding: 20px 0px;
+  }
+  #container-wrapper #section1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #container-wrapper #section1 .sec-1 #text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #container-wrapper #section2 #sec-2-right {
+    padding: 0;
+  }
+  #container-wrapper #section2 #sec-2-right img {
+    width: 350px;
+    height: 250px;
+  }
+  #container-wrapper #section2 #sec-2-left #sec-2-left-text {
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+  }
+  #container-wrapper #section3 {
+    padding-top: 20px;
+  }
+  #container-wrapper #section3 .sec-3 #text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section4 {
+    display: none;
+  }
+  #container-wrapper #section4-mobile {
+    display: block;
+  }
+  #container-wrapper #section4-mobile .carousel {
+    padding-top: 20px;
+  }
+  #container-wrapper #section4-mobile .carousel .indicators .carousel-indicators li {
+    background-color: #f2f9f9;
+    border: 1px solid transparent;
+  }
+  #container-wrapper #section4-mobile .carousel .carousel-inner .item {
+    padding: 0px;
+  }
+  #container-wrapper #section4-mobile .carousel .carousel-inner .item .card {
+    padding: 20px 0px;
+    min-height: 320px;
+  }
+  #container-wrapper #section4-mobile .carousel .carousel-inner .item .card .card-body .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section4-mobile .carousel .carousel-inner .item .card .card-body .card-text {
+    font-size: 15px;
+    text-align: center;
+  }
+  #container-wrapper #section5 {
+    padding-top: 0;
+    width: 100%;
+    margin: auto;
+  }
+  #container-wrapper #section5 .sec-5 #text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section6 {
+    padding-top: 20px;
+  }
+  #container-wrapper #section6 .sec-6 .icon-list {
+    width: 100%;
+    margin: auto;
+  }
+  #container-wrapper #section6 .sec-6 .icon-list #row-list {
+    padding: 20px 0px;
+  }
+  #container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list .list-icon {
+    text-align: center;
+  }
+  #container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list .list-icon img {
+    height: 40px;
+    width: 40px;
+  }
+  #container-wrapper #section6 .sec-6 .icon-list #row-list .ul-list .list #text-right {
+    padding: 10px 0px;
+    font-size: 12px;
+    text-align: center;
+  }
+  #container-wrapper #section7 {
+    padding-top: 20px;
+  }
+  #container-wrapper #section7 .sec-7 #text {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section8 {
+    padding-top: 20px;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-left {
+    padding-left: 0;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-left #step {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-left #step .text {
+    font-size: 18px;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-left #step .step-text {
+    font-size: 18px;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-right {
+    padding-left: 150px;
+  }
+  #container-wrapper #section8 .sec-8 .sec-8-right img {
+    display: none;
+  }
+  #container-wrapper #section9 {
+    padding-top: 0;
+    width: 100%;
+    margin: auto;
+  }
+  #container-wrapper #section9 .sec-9 #text {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section10 {
+    padding: 10px 0px;
+  }
+  #container-wrapper #section10 .sec-wrapper {
+    padding: 0px;
+  }
+  #container-wrapper #section10 .sec-wrapper .sec-inner {
+    padding: 20px 0px;
+    margin: 40px auto;
+  }
+  #container-wrapper #section10 .sec-wrapper .sec-inner .sec-text {
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  #container-wrapper #section10 .sec-wrapper .sec-inner .sec-slider {
+    padding: 0px;
+  }
+  #container-wrapper #section10 .sec-wrapper .sec-inner .sec-slider #myCarousel .carousel-inner {
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=graphics.css.map */
