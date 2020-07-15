@@ -1,0 +1,115 @@
+@font-face {
+  font-family: bahnschrift;
+  src: url("../webfonts/BAHNSCHRIFT.8cab203d8940.woff");
+}
+
+* {
+  font-family: bahnschrift;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.navbar .navcont .flexbox .sub-nav .items {
+  padding: 10px 25px;
+}
+
+#container-wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+#container-wrapper #section1 {
+  padding-top: 50px;
+}
+
+#container-wrapper #section1 .sec-1 #text {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+#container-wrapper #section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container-wrapper #section2 #sec-2-right img {
+  height: 250px;
+  width: 700px;
+}
+
+#container-wrapper #section2 #sec-2-left #sec-2-left-text {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#container-wrapper .button {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+#container-wrapper .button .sec-6-btn {
+  background: teal;
+  color: white;
+  border-radius: 50rem;
+  font-size: 22px;
+  -webkit-transition: -webkit-transform 0.38s ease-in-out;
+  transition: -webkit-transform 0.38s ease-in-out;
+  transition: transform 0.38s ease-in-out;
+  transition: transform 0.38s ease-in-out, -webkit-transform 0.38s ease-in-out;
+}
+
+#container-wrapper .button .sec-6-btn:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+@media all and (max-width: 768px) {
+  .slider-header {
+    padding-bottom: 20px;
+  }
+  #contents {
+    padding: 20px 0px;
+  }
+  #container-wrapper #section1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #container-wrapper #section1 .sec-1 #text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #container-wrapper #section2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #container-wrapper #section2 #sec-2-right {
+    padding: 0;
+  }
+  #container-wrapper #section2 #sec-2-right img {
+    width: 350px;
+    height: 180px;
+  }
+  #container-wrapper #section2 #sec-2-left #sec-2-left-text {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  #container-wrapper .button {
+    display: block;
+  }
+  #container-wrapper .button .sec-6-btn {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=strategy.css.map */

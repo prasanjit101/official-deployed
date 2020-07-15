@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .image-wrapper{
+            width:50%;
+            padding-top:10%;
+            margin:auto;
+            height:60vh;
+        }
+        img{
+            width:100%;
+            height:400px;
+        }
+        .btn{
+            color: white;
+            background-color: #004c5f;
+            font-size: 18px;
+            font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: lighter;
+            margin:auto;
+        }
+        .backBtn{
+            width:95%;
+            margin:auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 10vh;
+        }
+        .glyphicon{
+            color:white;
+            padding-right: 4px;
+            font-weight: 100;
+        }
+        @media all and (max-width:768px){
+            .image-wrapper{
+                width:95%;
+                height: 40vh;
+                padding-top:40%;
+            }
+            .backBtn{
+                margin-top: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-wrapper">
+        <img src="../static/assets/compress/404.png" alt="404 image" class="img-responsive">
+    </div>
+    <div class="backBtn">
+        <button class="btn"><span class="glyphicon glyphicon-arrow-left"></span>Home Page</button>
+    </div>
+</body>
+</html>
