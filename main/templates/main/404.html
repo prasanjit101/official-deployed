@@ -20,13 +20,19 @@
             width:100%;
             height:400px;
         }
-        .btn{
+        .btn:link{
             color: white;
             background-color: #004c5f;
             font-size: 18px;
             font-family:'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: lighter;
             margin:auto;
+        }
+        .btn:visited{
+            color:white;
+        }
+        .btn:hover{
+            color:white;
         }
         .backBtn{
             width:95%;
@@ -57,7 +63,7 @@
         <img src="../static/assets/compress/404.png" alt="404 image" class="img-responsive">
     </div>
     <div class="backBtn">
-        <button class="btn"><span class="glyphicon glyphicon-arrow-left"></span>Home Page</button>
+        <a class="btn" href="/"><span class="glyphicon glyphicon-arrow-left"></span>Home Page</a>
     </div>
 </body>
 </html>
