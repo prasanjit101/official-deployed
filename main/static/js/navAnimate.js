@@ -31,6 +31,7 @@ function sliderOutOnBodyTouch(){
         }
     });
 }
+
 slider();
 sliderOut();
 sliderOutOnBodyTouch();
