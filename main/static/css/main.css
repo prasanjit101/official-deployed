@@ -8,7 +8,8 @@ body {
   height:100vh;
   position:fixed;
   z-index:9999999;
-  background: #fff url('../assets/compress/preloader.gif') no-repeat center;
+  background: #fffafa url('../assets/compress/preloader.gif') no-repeat center;
+  background-size: 300px;
   transition: opacity 0.5s ease-out;
 }
 .preloader-finish{
@@ -336,8 +337,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .preloader{
-    background-size: 900px;
     position: fixed;
+    background-position: center center;
   }
   .navbar {
     border: 1px solid teal;

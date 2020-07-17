@@ -790,6 +790,12 @@
     padding-bottom: 30px;
     display: block;
   }
+  #service-cards-xs .mobile-cards-headline{
+    display: block;
+  }
+  #service-cards-xs .mobile-cards-headline h1{
+    display: block;
+  }
   #service-cards-xs .service-tab-grid {
     margin: 10px auto;
   }
