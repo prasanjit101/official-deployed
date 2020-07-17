@@ -17,12 +17,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- ON SCROLL ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <!--CUSTOM CSS-->
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
     <!--JAVASCRIPT-->
     <script src="/static/js/navAnimate.js" defer></script>
-    <!-- ON SCROLL ANIMATION -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     {% block link %}{% endblock %}
 
     <!-- Facebook Pixel Code -->
@@ -46,6 +46,8 @@
     <!-- End Facebook Pixel Code -->
 </head>
 <body>
+    <!--PRELOADER-->
+    <div class="preloader"></div>
     <!--Slider Code-->
     <section class="slider-main" style="width: 100%;">
         <!--"Opac-slider" transparent section overlapped over "slider-main" section-->
@@ -274,5 +276,12 @@
           duration: 800,
       });
     </script>
+    <script>
+        window.addEventListener('load', () => {
+            let preloader=document.querySelector('.preloader');
+            preloader.classList.toggle('preloader-finish');
+        });
+    </script>
+
 </body>
 </html>
