@@ -6,7 +6,20 @@
 * {
   font-family: bahnschrift;
 }
-
+.preloader{
+  width:100%;
+  height:100vh;
+  position: absolute;
+  top:0;
+  z-index:999999;
+  background: #fffafa url('../assets/compress/preloader.gif') no-repeat center;
+  background-size: 300px;
+  transition: opacity 0.5s ease-out;
+}
+.preloader-finish{
+  opacity: 0%;
+  z-index:-1;
+}
 .overlay1 {
   width: 100%;
   height: 70vh;
@@ -705,6 +718,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .preloader{
+    position: fixed;
+    background-position: center center;
+  }
   .overlay1 {
     display: none;
   }

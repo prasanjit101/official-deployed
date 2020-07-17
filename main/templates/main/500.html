@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Server Error</title>
+    <link rel="stylesheet" href="../../static/css/error500.css">
+    <style>
+      body{
+        background-color: #e9e9e9;
+        height:100vh;
+        position: fixed;
+      }
+      .image-wrapper{
+            width:60%;
+            padding-top:5%;
+            margin:auto;
+            height:60vh;
+        }
+        img{
+            width:100%;
+            height:400px;
+        }
+        .glyphicon{
+            color:white;
+            padding-right: 4px;
+            font-weight: 100;
+        }
+        @media all and (max-width:768px){
+            .image-wrapper{
+                width:100%;
+                height: 20vh;
+                padding-top:40%;
+            }
+            img{
+              width:150%;
+              transform:translateX(-15%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-wrapper">
+      <img src="../../static/assets/compress/500.png" class="img-responsive" alt="500 image">
+    </div>
+</body>
+</html>  
