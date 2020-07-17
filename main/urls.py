@@ -13,6 +13,9 @@ urlpatterns = [
     path("socialmedia/", views.socialmedia, name="socialmedia"),
     path("team/", views.team, name="team"),
     path("policy/", views.policy, name="policy"),
-    path("strategy/", views.strategy, name="strategy")
+    path("strategy/", views.strategy, name="strategy"),
+    path("contact/contactpost/",views.contactpost,name="contactpost"),
+    path("landingpost",views.landingpost,name="landingpost"),
+    path("subscribepost",views.subscribepost,name="subscribepost")
 
 ]

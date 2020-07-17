@@ -3,18 +3,6 @@ body {
   background-color: #f2f9f9;
   overflow-x: hidden;
 }
-.preloader{
-  width:100%;
-  height:100vh;
-  position:fixed;
-  z-index:9999999;
-  background: #fffafa url('../assets/compress/preloader.gif') no-repeat center;
-  background-size: 300px;
-  transition: opacity 0.5s ease-out;
-}
-.preloader-finish{
-  opacity: 0%;
-}
 .navbar {
   min-height: 8vh;
   background-color: #f2f9f9;
@@ -336,10 +324,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .preloader{
-    position: fixed;
-    background-position: center center;
-  }
   .navbar {
     border: 1px solid teal;
     background-color: #02323de5;
