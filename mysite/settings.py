@@ -55,6 +55,8 @@ MIDDLEWARE = [
 ]
 
 SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 SITE_ID = 1
 
@@ -126,6 +128,7 @@ USE_TZ = True
 STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS=[os.path.join(BASE_DIR,"main\static")]
 STATIC_URL = '/static/'
+os.environ['HTTPS'] = "on"
 
 # FLUTTERWAVE_PRIVATE_KEY = "FGRGH343333445"
 FLUTTERWAVE_PRIVATE_KEY = os.environ.get("FLUTTERWAVE_PRIVATE_KEY")
