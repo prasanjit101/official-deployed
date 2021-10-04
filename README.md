@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Aryan-Dutta-Media/official-deployed">
-    <img src="staticfiles/assets/compress/logolatest-min.png" alt="Aryan Dutta Media" width="250" height="80">
+    <img src="staticfiles/assets/compress/arlogo-min.png" alt="Aryan Dutta Media" width="250" height="80">
   </a>
 
   <p align="center">
