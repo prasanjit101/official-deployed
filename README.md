@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![APACHE License][license-shield]][license-url]
+
 # Aryan Dutta Media (Website)
 
 <!-- LOGO -->
@@ -34,8 +40,6 @@
 <br/>
 
 ### Built With
-
-
 * [Django](https://www.djangoproject.com/)
 * [Django Template Engine](https://www.djangoproject.com/)
 * [Rest Api](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
@@ -57,6 +61,7 @@ To get this project running up in your local machine, follow the steps below:
 * Install the required packages `pip install -r requirements.txt`
 * Start up the local server `python manage.py runserver`
   
+<br/>
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -69,9 +74,20 @@ Don't forget to give the project a star! Thanks again!
 Read [this](https://gist.github.com/brianclements/841ea7bffdb01346392c) docs for understanding commit message format
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch ( `git checkout -b feature/AmazingFeature` )
+3. Commit your Changes ( `git commit -m 'Add some AmazingFeature'` )
+4. Push to the Branch ( `git push origin feature/AmazingFeature` )
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+[contributors-shield]: https://img.shields.io/github/contributors/Aryan-Dutta-Media/official-deployed.svg?style=for-the-badge
+[contributors-url]: https://github.com/Aryan-Dutta-Media/official-deployed/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Aryan-Dutta-Media/official-deployed.svg?style=for-the-badge
+[forks-url]: https://github.com/Aryan-Dutta-Media/official-deployed/network/members
+[stars-shield]: https://img.shields.io/github/stars/Aryan-Dutta-Media/official-deployed.svg?style=for-the-badge
+[stars-url]: https://github.com/Aryan-Dutta-Media/official-deployed/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Aryan-Dutta-Media/official-deployed.svg?style=for-the-badge
+[issues-url]: https://github.com/Aryan-Dutta-Media/official-deployed/issues
+[license-shield]: https://img.shields.io/github/license/Aryan-Dutta-Media/official-deployed.svg?style=for-the-badge
+[license-url]: https://github.com/Aryan-Dutta-Media/official-deployed/blob/master/LICENSE
