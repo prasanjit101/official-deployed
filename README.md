@@ -1,5 +1,22 @@
-# Aryan Dutta Media Website
+# Aryan Dutta Media (Website)
 
+<!-- LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Aryan-Dutta-Media/official-deployed">
+    <img src="staticfiles/assets/compress/logolatest-min.png" alt="Aryan Dutta Media" width="250" height="80">
+  </a>
+
+  <p align="center">
+    Aryan Dutta Media is a startup providing graphic designing, website & app building services.
+    <br/>
+    <a href="https://aryan-dutta-media-official.herokuapp.com/">Visit Site</a>
+    ·
+    <a href=https://github.com/Aryan-Dutta-Media/official-deployed/issues>Report Bug</a>
+    ·
+    <a href=https://github.com/Aryan-Dutta-Media/official-deployed/issues>Request Feature</a>
+  </p>
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -14,7 +31,7 @@
     <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
-
+<br/>
 
 ### Built With
 
