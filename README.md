@@ -46,7 +46,9 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get this project running up in your local machine, follow the steps below:
@@ -62,6 +64,8 @@ To get this project running up in your local machine, follow the steps below:
 * Start up the local server `python manage.py runserver`
   
 <br/>
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
